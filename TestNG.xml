@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG">
+
+  <test name="TestNG Features" >
+  	
+  	
+  	<parameter name="email" value="krish_saha2006@yahoo.co.in"/>
+  	<parameter name="browser" value="chrome"></parameter>
+    
+    <classes>
+       <class name="TestNG_Practice.Parameterstestng" />
+    </classes>
+  </test>
+ </suite>
