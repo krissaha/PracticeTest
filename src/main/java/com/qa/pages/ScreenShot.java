@@ -1,3 +1,4 @@
+// Author Krishnendu Saha
 package com.qa.pages;
 
 import static org.testng.Assert.assertEquals;
@@ -41,5 +42,4 @@ public class ScreenShot extends BaseTest
 	{
 		Assert.assertEquals(false, true);
 	}
-
 }
