@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.pages.RightClick">
+      <class name="com.qa.pages.DragandDrop">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
           <include name="takeScreenShot1"/>
         </methods>
-      </class> <!-- com.qa.pages.RightClick -->
+      </class> <!-- com.qa.pages.DragandDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

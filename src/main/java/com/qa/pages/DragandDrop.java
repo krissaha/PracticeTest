@@ -17,7 +17,7 @@ public class DragandDrop
 	@BeforeMethod
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\\\Krishnendu\\\\Selenium\\\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 	}

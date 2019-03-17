@@ -11,10 +11,10 @@ public class ExcelRead {
 
 	public static void main(String[] args) throws IOException 
 	{
-		File src = new File("E:\\Selenium\\TestData.xlsx");
+		File src = new File("C:\\\\Users\\\\DELL\\\\eclipse-workspace\\\\PracticeTest\\\\src\\\\main\\\\java\\\\Data\\\\HW_DATA.xlsx");
 		FileInputStream fis = new FileInputStream(src);
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
-		XSSFSheet sheet = wb.getSheetAt(1);
+		XSSFSheet sheet = wb.getSheetAt(0);
 		int rowcount = sheet.getLastRowNum();
 		System.out.println("Total row count :- " + rowcount);
 		
@@ -26,7 +26,16 @@ public class ExcelRead {
 			//Create a loop to print cell values in a row
 			for (int j=1; j<row.getLastCellNum(); j++)
 			{
-				System.out.print(row.getCell(j).getStringCellValue()+" | ");
+				String value;
+				value = row.getCell(j).getStringCellValue();
+				if(value == new String())
+				{
+					System.out.print(value+"|");
+				}
+				elseif (value == new Integer())
+				{
+					int k = 
+				}
 			}
 			
 			System.out.println();
