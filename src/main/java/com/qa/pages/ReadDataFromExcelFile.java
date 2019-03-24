@@ -15,7 +15,7 @@ public class ReadDataFromExcelFile {
 	public static void main(String[] args) throws Exception {
 
 		File src = new File(
-				"C:\\Users\\DELL\\eclipse-workspace\\PracticeTest\\src\\main\\java\\Data\\TestData.xlsx");
+				"/Users/krishnendu/eclipse-workspace/PracticeTest/src/main/java/com/qa/TestData/TestData.xlsx");
 		FileInputStream fis = new FileInputStream(src);
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		XSSFSheet sheet = wb.getSheet("loginData");
